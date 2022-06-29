@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+  /* overflow-x: hidden; */
+}
+
+#Fpage{
+    background: 
+    /* top, transparent red, faked with gradient */ linear-gradient(
+      rgba(221, 201, 201, 0.45),
+      rgba(0, 0, 0, 0.45)
+    ),
+    /* bottom, image */ url(/imgs/imagereader-1-1024x682.jpg.crdownload);
+    background-size: cover;
+    background-attachment:fixed ;
+
+
+}
+
+.HouseIMG{
+ 
+}
+
+.liftTingz{
+  padding-bottom: 150px;
+}
+
+.logo{
+  opacity: 70%;
+  border-radius: 18px;
+}
+
+.home-con{
+align-items: baseline;
+flex-direction: column;
+margin-left: 10px;
+max-width: 200px;
+border-radius: 15px;
+}
+
+
+#Header1{
+    padding-top: 290px ;
+    font-family: "Satisfy", serif;
+}
+
+/* ===================================== Search bar =========================================== */
+
+/* Create a column layout with Flexbox */
+.row {
+  display: flex;
+  
+}
+
+/* Left column (menu) */
+.left {
+  flex: 35%;
+  padding: 15px 0;
+  margin-top: 40px;
+}
+
+.left h2 {
+  padding-left: 8px;
+}
+
+
+/* Style the search box */
+#mySearch {
+  width: 100%;
+  font-size: 18px;
+  padding: 11px;
+  border: 1px solid #ddd;
+}
+
+/* Style the navigation menu inside the left column */
+#myMenu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#myMenu li a {
+  padding: 12px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  display: block;
+  font-size: larger;
+}
+
+#myMenu li a:hover {
+  background-color: #eee;
+}
+
+
+
+
+
+
+
+/* =============================================Drop down button============================================ */
+
+
+
+
+
+
+
+
+  /* ==================================== button========================================================================= */
+  
+ 
+
+    /* ==================================== Navbar ========================================================================= */
+
+
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#navbar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+
+    /*===================================================== For the pictuers===============================================*/
+
+    .pics {
+      width: 35%;
+      aspect-ratio: 1;
+      object-fit: cover;
+      border-radius: 50%;
+  }
+  
+  .projects-container{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 30px;
+  }
+  
+  .projects-container img{
+      flex-grow: 1;
+      /* max-width: 300px; */
+      max-height:400px ;
+      object-fit: cover;
+  
+  }
+  
